@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap my apple lina</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div id="top-menu">
+        <div class="container">
+          <ul  class="nav nav-tabs navbar-left">
+            <li>
+              <img src="https://my-apple.com.ua/image/moon.svg" alt>
+              <div class="switch">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="slider"></label>
+              </div>
+              <img src="https://my-apple.com.ua/image/sun%201.svg" alt>
+            </li>
+          </ul>
+          <ul class="nav nav-tabs ">
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Разпродаж</a></li>
+            <li><a href="#">Сервісний Центр</a></li>
+            <li><a href="#">Зв'язатися з нами</a></li>
+            <li><a href="#">Наш номер телефону</a></li>
+            <li>
+              <select><option> Українська</option> <option value="2"> Англійська</option><option value="3"> Російська</option></select>
+            </li>
+          </ul>
+        </div>
+      </div>
+     <!-- <div id="top-menu2"> -->
+     <nav class="navbar navbar-default">
+      <div class="container"><!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="https://my-apple.com.ua/image/logo/white.svg" width="162" height="38" title="My Apple">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse my-navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#" ><span class="material-symbols-outlined">phone_iphone</span> iPhone sale</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">phone_iphone</span>iPhone нові</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">desktop_windows</span> Mac</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">tablet_mac</span> iPad</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">watch</span> Apple Watch</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">headphones</span>Аксесуар</a></li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right ">
+           <a href="#"><span class="material-symbols-outlined"> home</span></a>
+           <a href="tel:=+380960907578" class="callNumber"><span class="material-symbols-outlined">call</span></a>
+           <a href=""><span class="material-symbols-outlined">cases</span></a><span id="cart-total"></span></a>
+         </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+      </nav><!-- </div> -->
+   </header> 
+   <div class="container">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="image.slider/airpods-sale-ua-1750x525.png" alt="sale-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/apple-watch-se-ua-1750x525.png" alt="watch-se-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/covers-sale-ua-1750x525.png" alt="sale-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/iphone-14-pro-ua-1750x525.png" alt="pro-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/macbooks-air-ua-1750x525.png" alt="air-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/service-ua-f-1750x525.png" alt="service-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/starlink-ua-1750x525.png" alt="starlink-ua">
+        </div>
+        <div class="item">
+          <img src="image.slider/watch-ultra-ua-1750x525.png" alt="watch-ultra-ua">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+   </div>
+   <div class="container">
+    <h1>Спеціальні пропозиції</h1>
+    <a href="#">Дивитися все></a>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/silic-7-8-black-450x450copy-450x450-200x200.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Силіконовий чохол чорного кольору для iPhone 7+ / 8+</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa"> 5,22$</span>
+                <span class="ua">200 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">6,53$ </span>
+                <span class="ua"> 250 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/earpods-3-5-mm-200x200.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple EarPods з роз'ємом 3.5 мм Copy</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa"> 10,44$</span>
+                <span class="ua">400 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">11,75$</span>
+                <span class="ua"> 450 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/unnamed-450x450-200x200.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple AirPods Pro <br> (MWP22)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">190,00$</span>
+                <span class="ua">7 277 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">202,00$</span>
+                <span class="ua">7 737 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/unnamed-450x450-200x200.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple AirPods Pro 2 <br> (MQD83)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">255,00$</span>
+                <span class="ua">9 767 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">258,00$</span>
+                <span class="ua">9 881 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-9QnZKQahWpb.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Appel iPhone 12 mini 128GB Green (MGE73)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">460,00$</span>
+                <span class="ua">17 618 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">500,00$</span>
+                <span class="ua">19 150 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-aLBchNiQuxIwTD 2.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple AirPods 3 <br> (MME73)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">200,00$</span>
+                <span class="ua">7 660 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">210,00$</span>
+                <span class="ua">8 043 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-bJAJxie6GYnHpq9.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple AirPods with Charging Case (MV7N2) (2 Gen)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">130,00$</span>
+                <span class="ua">4 979 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">140,00$</span>
+                <span class="ua">5 362 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div>
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-pu5nvnVNi2PfeC4w.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple iPhone 11 128GB Black (MWLE2)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">420,00$</span>
+                <span class="ua">16 086 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">491,00$</span>
+                <span class="ua">18 805 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  в корзину </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2>Лідери продажів</h2>
+     <h5> <a href="#">Дивитися все ></a></h5>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <!-- <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div> -->
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-kXq1OInZMknf 200№1.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple iPhone XR 128GB Black (MRY92)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">320,00$</span>
+                <span class="ua">12 256 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">387,00$</span>
+                <span class="ua">14 822 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  Хочу! </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <!-- <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div> -->
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-a410CZpL2h7qt 200№2.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple iPhone 12 Pro 128GB Graphite</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">1 079,00$</span>
+                <span class="ua">41 326 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">1 079,00$</span>
+                <span class="ua">41 326 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  Хочу!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <!-- <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div> -->
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-6wyV5OojaNxT4gI 200№3.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple iPhone 13 Pro 128GB Graphite (MLV93)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa">860,00$</span>
+                <span class="ua">32 938 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">890,00$</span>
+                <span class="ua">34 087 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  Хочу!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+        <div class="thumbnail">
+          <!-- <div class="topstickers_wrapper">
+            <div class="topstickers topstickers_sale"> Акція </div>
+          </div> -->
+          <div class="image"> <img src="image/imgonline-com-ua-Resize-5s3KlDIzBp9yJPX 200№4.png" alt="..."></div>
+          <div class="caption">
+            <div class="title-price"> <h4>Apple iPhone X 256GB Silver (MQAG2)</h4></div>
+            <div class="special-price">
+              <div class="price-new">
+                <span class="usa"> 312,00$</span>
+                <span class="ua">11 950 грн.</span> 
+              </div>
+              <div class="price-old">
+                <span class="usa">312,00$</span>
+                <span class="ua">11 950 грн.</span>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <div class="btn-center">
+              <button type="submit">  Хочу!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+     <div class="service-home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-12  d-table">
+            <div class="service-img d-t-cell">
+              <img src="https://my-apple.com.ua/image/delivery.svg" alt>
+            </div>
+            <div class="service-description d-t-cell">
+              <h3>Быстрая доставка</h3>
+              <span>Мы доставляем заказы в кратчайшие сроки по всей территории Украины</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12  d-table">
+            <div class="service-img d-t-cell">
+              <img src="https://my-apple.com.ua/image/exchange.svg" alt>
+            </div>
+            <div class="service-description d-t-cell">
+              <h3>Обмен и возврат</h3>
+              <span>Возврат и обмен в течении 14 дней, согласно Закону Украины о защите прав потребителей</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12  d-table">
+            <div class="service-img d-t-cell">
+              <img src="https://my-apple.com.ua/image/garant.svg" alt>
+            </div>
+            <div class="service-description d-t-cell">
+              <h3>Гарантия</h3>
+              <span>Мы предоставляем гарантию от трех месяцев от магазина, а также можем расширить её до трех лет</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12  d-table">
+            <div class="service-img d-t-cell">
+              <img src="https://my-apple.com.ua/image/pay.svg" alt>
+            </div>
+            <div class="service-description d-t-cell">
+              <h3>Гибкая оплата</h3>
+              <span>Оплачивайте так, как Вам удобно: Наличкой в магазине, терминалом, переводом на карту</span>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <div class="container">
+       <div class="text-home">
+        <h2 class="title-tab">Почему myApple? </h2>
+        <div class="bottomShadow">
+          <p> Рады приветствовать Вас на нашем сайте! Мы – интернет-магазин «яблочной техники» и представляем для вас весь ассортимент продукции от производителя Apple. Новые IPhone для новых впечатлений </p>
+          <p>В нашем ассортименте смартфонов от производителя Apple присутствует абсолютно новые IPhone, в заводской упаковке, и со всей полной комплектацией. Купить айфон 
+            в нашей компании значительно выгоднее, чем в альтернативных магазинах, так как именно эта техника – наша главная специализация. Приобретая смартфон у нас любым удобным 
+            для вас способом, вы получаете гарантию на длительный срок эксплуатации. Мы готовы вам предложить от уже «ходовых» до самых последних моделей во всей существующей цветовой палитре и с разным объемом внутренней памяти.</p>
+        </div>
+       </div>
+     </div>
+     <footer>
+      <div class="container">
+        <div class="row">
+          <div class="cntInfo">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 d-o-d">
+              <div class="logo-footer">
+                <img src="https://my-apple.com.ua/image/logo-footer.svg" alt="logo">
+              </div>
+              <div class="phone-footer">
+                <a href="tel:+380960907578">+ 38 (096) 090-75-78</a>
+              </div>
+              <div class="mail-footer">
+                <a href="mailto:myapple.biz.zp@com.ua">Email:myapple.biz.zp@com.ua</a>
+              </div>
+              <div class="footer-btn">
+                <a class="imcallask-click-additional" href="#">Связаться с нами</a>
+              </div>
+            </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6  d-o-d footer-info">
+            <h5>Информация</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Обмен и Возврат</a></li>
+              <li><a href="#">Способ оплаты и доставки</a></li>
+              <li><a href="#">Рассрочка и кредит</a></li>
+              <li><a href="https://my-apple.com.ua/privacy.html">Гарантия и сервис</a></li>
+              <p><a href="tel:+380977987185">(097) 798-71-85 </a></p>
+            </ul>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 d-o-d footer-info">
+            <h5>Дополнительно</h5>
+            <ul class="list-unstyled">
+              <li><a href="https://my-apple.com.ua/sitemap/">Карта сайта</a></li>
+              <li><a href="https://my-apple.com.ua/specials/">Товары со скидкой</a></li>
+            </ul>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 d-o-d footer-info">
+            <h5>Горячая линия</h5>
+            <ul class="list-unstyled">
+              <li class="phone-footerr"><a href="tel:+380960907578">+ 38 (096) 090-75-78</a></li>
+              <li><a href="tel:+380632512594">+ 38 (063) 251-25-94</a></li>
+              <li class="footer-btnr"><a class="imcallask-click-additional" href="#">Заказать звонок</a></li>
+              <p>Email</p>
+              <li class="mail-footerr"><a href="mailto:myapple.biz.zp@com.ua">myapple.biz.zp@com.ua</a></li>
+            </ul>
+           <div class="footerSoc">
+              <a href="#" target="_blank"><img src="https://my-apple.com.ua/image/fb.svg" alt></a>
+              <a href="#" target="_blank"><img src="https://my-apple.com.ua/image/insta.svg" alt></a>
+              <a href="#" target="_blank"><img src="https://my-apple.com.ua/image/white.svg" alt></a>
+              <a href="#" target="_blank"><img src="https://my-apple.com.ua/image/telegram.svg" alt></a>
+            </div>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 d-o-d footer-info">
+            <h5>Точка выдачи:</h5>
+            <p>г. Запорожье, проспект Соборный 179 </p>
+            <p>10:00 - 19:00</p>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 d-o-d footer-info-2">
+              <h5>Номера телефону</h5>
+             <p><a href="tel:+380960907578">(096) 090-75-78</a></p>
+             <p><a href="tel:+380500578135">(050) 057-81-35</a></p>
+             <p><a href="tel:+380632512594">(063) 251-25-94</a></p>
+             <p><a href="tel:+380977987185">(097) 798-71-85</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-2"><p>myApple © 2016 - 2023</p></div>
+      </div>
+     </footer>
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
